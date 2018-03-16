@@ -1,1 +1,6 @@
 test1.txt
+.spyproject/vcs.ini
+.spyproject/encoding.ini
+.spyproject/codestyle.ini
+.spyproject/workspace.ini
+klatka.asc
