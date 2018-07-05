@@ -6,7 +6,7 @@ import seaborn as sns
 import scipy.optimize as opt
 from timeit import default_timer as timer
 
-fn="ixon0015.asc"
+fn="klatka.asc"
 
 
     
@@ -60,7 +60,7 @@ def twoD_Gaussian(r, amplitude, xo, yo, sigma_x, sigma_y, theta, offset):
 
 
 pht_size=5
-th=10
+th=1.3
 def photon_finder(array):
     mean=find_mean(array)
     sh=np.shape(array)
